@@ -1,0 +1,29 @@
+body{
+    background-image: url('img/bmiimg.jpg');
+}
+#container{
+    background-color:deepskyblue;
+    width: 489px;
+    height: 441px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+#first{
+    width: 450px;
+    height: 400px;
+    background-color: aliceblue;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 12px;
+    background-color: aqua;
+}
+.text-center{
+    padding: 14px;
+}

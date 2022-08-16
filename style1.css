@@ -1,0 +1,39 @@
+body{
+    background-image: url('img/img7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container{
+    background-color:lightskyblue;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 50px;
+    
+}
+#d1{
+    border: solid;
+    height: 400px;
+    width: 500px;
+    background-color: aliceblue;
+}
+#btn{
+    padding: 12px;
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    background-color: skyblue;
+}
+#source{
+    margin: 25px auto;
+    font-size: 26px;
+    color: black;
+}
+
+
+
+

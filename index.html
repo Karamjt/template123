@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #first{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+        <div id="first">
+            <h1>He</h1>
+        <a href="https://www.javatpoint.com/javascript-innerHTML" target="_parent" rel="noopener noreferrer">Website</a>
+            <p class="dd">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non ex vel dolorem, perspiciatis id eos debitis deleniti architecto ipsum provident doloribus. Aliquam beatae officia, labore provident facilis iusto eligendi eius.</p>
+            <p class="dd">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi quisquam, sunt, repellat pariatur rem esse sapiente quis iste, mollitia officiis architecto asperiores? Aut praesentium architecto eveniet laudantium, accusamus omnis a?</p>
+
+            <p class="dd">Lorem ipsum
+                , dolor sit amet consectetur adipisicing elit. Quis dolore quia voluptas, culpa sint distinctio ipsum porro dolores esse dicta officiis eligendi vero, rem veritatis praesentium quaerat expedita maxime tempora!</p>
+        </div>
+        <a href="https://www.javatpoint.com/javascript-innerHTML" target="_blank" rel="noopener noreferrer">hi</a>
+        <div id="first">
+            <p c
+            lass="dd">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non ex vel dolorem, perspiciatis id eos debitis deleniti architecto ipsum provident doloribus. Aliquam beatae officia, labore provident facilis iusto eligendi eius.</p>
+            <p class="dd">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi quisquam, sunt, repellat pariatur rem esse sapiente quis iste, mollitia officiis architecto asperiores? Aut praesentium architecto eveniet laudantium, accusamus omnis a?</p>
+
+            <p class="dd">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dolore quia voluptas, culpa sint distinctio ipsum porro dolores esse dicta officiis eligendi vero, rem veritatis praesentium quaerat expedita maxime tempora!</p>
+        </div>
+ <a href="https://www.javatpoint.com/javascript-innerHTML" target="_self" rel="noopener noreferrer">hello</a>
+    <script>
+        var aa=document.getElementById('first');
+        console.log(aa);
+        // ss=aa.getElementsByClassName("dd")[1];
+        ss=document.getElementsByClassName("dd");
+                    console.log(ss);
+        tagname=document.getElementsByTagName('p');
+        console.log(tagname);
+
+        console.log(document.querySelector('p'));
+        console.log(document.querySelectorAll('p'));
+        
+     var aas=document.querySelector('a[target=_blank]');
+     console.log(aas);
+     aas.innerHTML="Hello How Are you";
+     let counter=0;
+setInterval(()=>{
+   
+    console.log(document.querySelector('h1').innerHTML= counter);
+   counter++;
+},1000);
+
+    </script>
+</body>
+</html>
